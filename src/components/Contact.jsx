@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ContactSection = styled.section`
-  /* Your CSS styles for the contact section here */
+  padding: 20px;
+  background-color: #f0f0f0;
 `;
 
 const ContactForm = styled.form`
-  /* Your CSS styles for the contact form here */
+  display: flex;
+  flex-direction: column;
 `;
 
 // ... (Rest of your contact form components: input fields, labels, button, etc.)

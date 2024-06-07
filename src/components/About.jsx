@@ -2,11 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AboutSection = styled.section`
-  /* Your CSS styles here */
+  padding: 20px;
+  background-color: #f0f0f0;
 `;
 
 const Avatar = styled.img`
-  /* Your CSS styles here */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
 `;
 
 function About() {

@@ -9,4 +9,4 @@ const ProjectImage = styled.img`
   /* Your CSS styles here */
 `;
 
-// ... rest of the component (no changes)
+
