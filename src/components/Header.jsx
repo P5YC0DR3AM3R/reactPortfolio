@@ -19,7 +19,6 @@ function Header() {
   return (
     <HeaderContainer>
       <Title>Your Name</Title>
-      <Navigation />
     </HeaderContainer>
   );
 }

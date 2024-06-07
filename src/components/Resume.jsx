@@ -36,7 +36,7 @@ function Resume() {
   return (
     <ResumeSection>
       <h2>Resume</h2>
-      <ResumeLink href="/assets/resume.pdf" download>Download Resume</ResumeLink>
+      <ResumeLink href="./public/assets/resume.pdf" download>Download Resume</ResumeLink>
       <SkillsList>
         <SkillItem>JavaScript</SkillItem>
         <SkillItem>React</SkillItem>
