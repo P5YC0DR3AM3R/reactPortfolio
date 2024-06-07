@@ -3,11 +3,20 @@ import styled from 'styled-components';
 import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa'; // Assuming you're using Font Awesome icons
 
 const FooterContainer = styled.footer`
-  /* Your CSS styles for the footer container here */
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
 `;
 
 const SocialLink = styled.a`
-  /* Your CSS styles for the social media links here */
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5em;
+
+  &:hover {
+    color: #007bff;
+  }
 `;
 
 function Footer() {

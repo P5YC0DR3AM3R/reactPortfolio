@@ -4,11 +4,15 @@ import styled from 'styled-components';
 import Navigation from './Navigation';
 
 const HeaderContainer = styled.header`
-  /* Your CSS styles here */
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
 `;
 
 const Title = styled.h1`
-  /* Your CSS styles here */
+  margin: 0;
+  font-size: 2em;
 `;
 
 function Header() {
